@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SwipeRefresh"
+    tools:context=".RecycleView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/NO"
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toStartOf="@+id/Waktu"
+            android:layout_toLeftOf="@+id/Waktu"
+            android:background="@color/SpringGreen"
+            android:gravity="center"
+            android:padding="5dp"
+            android:scrollbarThumbHorizontal="@drawable/rafi"
+            android:scrollbarThumbVertical="@drawable/rafi"
+            android:text="@string/no"
+            android:textColor="@color/MidnightBlue"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/Waktu"
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/tekanan"
+            android:layout_toLeftOf="@+id/tekanan"
+            android:background="@color/SpringGreen"
+            android:gravity="center"
+            android:padding="5dp"
+            android:scrollbarThumbHorizontal="@drawable/rafi"
+            android:scrollbarThumbVertical="@drawable/rafi"
+            android:text="@string/waktu"
+            android:textColor="@color/MidnightBlue"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tekanan"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toStartOf="@+id/status"
+            android:layout_toLeftOf="@+id/status"
+            android:background="@color/SpringGreen"
+            android:gravity="center"
+            android:padding="5dp"
+            android:scrollbarThumbHorizontal="@drawable/rafi"
+            android:scrollbarThumbVertical="@drawable/rafi"
+            android:text="@string/Tekanan"
+            android:textColor="@color/MidnightBlue" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toStartOf="@+id/pompa"
+            android:layout_toLeftOf="@+id/pompa"
+            android:background="@color/SpringGreen"
+            android:gravity="center"
+            android:padding="5dp"
+            android:scrollbarThumbHorizontal="@drawable/rafi"
+            android:scrollbarThumbVertical="@drawable/rafi"
+            android:text="@string/Status"
+            android:textColor="@color/MidnightBlue" />
+
+        <TextView
+            android:id="@+id/pompa"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/SpringGreen"
+            android:gravity="center"
+            android:padding="5dp"
+            android:scrollbarThumbHorizontal="@drawable/rafi"
+            android:scrollbarThumbVertical="@drawable/rafi"
+            android:text="@string/Pompa"
+            android:textColor="@color/MidnightBlue" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Re"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/Waktu"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="43dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.024" />
+
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

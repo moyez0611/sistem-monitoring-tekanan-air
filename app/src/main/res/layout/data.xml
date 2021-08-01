@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tekanan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/NO"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toStartOf="@+id/waktu"
+        android:layout_toLeftOf="@+id/waktu"
+        android:gravity="center"
+        android:text="@string/no"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/waktu"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginRight="205dp"
+        android:gravity="center"
+        android:text="@string/Waktu"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Tekanan1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toStartOf="@+id/status"
+        android:layout_toLeftOf="@+id/status"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/Tekanan"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toStartOf="@+id/pompa"
+        android:layout_toLeftOf="@+id/pompa"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/Status"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/pompa"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/Pompa"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>

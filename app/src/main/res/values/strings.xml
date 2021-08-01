@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NewTekanan</string>
+    <string name="nama">Nama :</string>
+    <string name="status">Status :</string>
+    <string name="tekanan">Tekanan :</string>
+    <string name="pompa">Pompa :</string>
+    <string name="button">Button</string>
+    <string name="datalog">DATALOG</string>
+    <string name="no">NO</string>
+    <string name="waktu">Waktu</string>
+    <string name="Tekanan">Tekanan</string>
+    <string name="Status">Status</string>
+    <string name="Pompa">Pompa</string>
+    <string name="Waktu">waktu1</string>
+
+</resources>
